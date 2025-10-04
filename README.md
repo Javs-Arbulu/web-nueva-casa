@@ -2,8 +2,6 @@
 
 Un sitio web moderno y responsivo para la iglesia Nueva Casa, diseñado para conectar corazones jóvenes con la fe. Construido con React, TypeScript, Tailwind CSS y Vite.
 
-![Nueva Casa](https://images.unsplash.com/photo-1511632765486-a01980e01a18?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80)
-
 ## ✨ Características
 
 - 🎨 **Diseño Moderno**: Interfaz limpia y profesional
