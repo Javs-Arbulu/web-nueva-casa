@@ -272,10 +272,11 @@ body {
 .btn-primary {
   background: var(--gradient-primary);
   color: var(--color-white);
+  border: 2px solid var(--color-primary);
 }
 
 .btn-primary:hover {
-  background-color: var(--color-primary-dark);
+  background-color: var(--color-primary);
   transform: translateY(-2px);
   box-shadow: 0 10px 25px rgba(147, 51, 234, 0.3);
 }
@@ -288,6 +289,7 @@ body {
 
 .btn-secondary:hover {
   background-color: var(--color-primary);
+  transform: translateY(-2px);
   color: var(--color-white);
 }
 
@@ -299,6 +301,7 @@ body {
 
 .btn-outline-white:hover {
   background-color: var(--color-white);
+  transform: translateY(-2px);
   color: var(--color-primary);
 }
 

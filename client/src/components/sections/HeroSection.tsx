@@ -3,7 +3,7 @@ import React from "react";
 const HeroSection: React.FC = () => {
   return (
     <section
-      className="relative h-[90vh] flex items-center justify-center"
+      className="relative h-[95vh] flex items-center justify-center"
       style={{ background: "var(--gradient-hero)" }}
     >
       {/* Background overlay */}
@@ -16,23 +16,13 @@ const HeroSection: React.FC = () => {
       {/* Content */}
       <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <h1 className="text-4xl md:text-6xl font-bold text-white mb-6 leading-tight">
-          Conectando Corazones Jóvenes con la Fe
+          Encuentra tu propósito en comunidad
         </h1>
 
         <p className="text-xl md:text-2xl text-gray-200 mb-8 max-w-3xl mx-auto leading-relaxed">
           Descubre un espacio vibrante donde la juventud se encuentra con la
           espiritualidad. Te invitamos a ser parte de nuestra comunidad!
         </p>
-
-        <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-          <button className="btn btn-primary text-lg py-4 px-8">
-            Únete Hoy
-          </button>
-
-          <button className="btn btn-outline-white text-lg py-4 px-8">
-            Ver Servicios en Vivo
-          </button>
-        </div>
       </div>
 
       {/* Scroll indicator */}
